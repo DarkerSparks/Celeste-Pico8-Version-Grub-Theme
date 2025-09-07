@@ -1,0 +1,47 @@
+# Global Proterties
+title-text: ""
+desktop-image: "bg.png"
+desktop-color: "#040609"
+
+terminal-box: "term_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+
++ boot_menu {
+	left = 28%
+	top = 60%
+	width = 60%
+	height = 40%
+
+	item_font = "My Font Regular 24"
+	item_align = center
+	item_color = "#5f574f"
+
+	icon-width = 32
+	icon_height = 32
+	item_icon_space = -20
+
+	item_height = 32
+	item_spacing = 32
+
+
+	selected_item_pixmap_style = "cursor_*.png"
+	selected_item_color = "#fff1e8"
+	
+}
+
+#Count Down
++ label {
+	left = 35%
+	top = 50%
+	width = 30%
+	align = center
+	id = "__timeout__"
+	text = "%d"
+	color = "#fff1e8"
+	font = "PICO-8 Regular 24"
+}
